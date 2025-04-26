@@ -1,31 +1,47 @@
 ---
 layout: default
+title: Home
 ---
 <div class="home">
-    <section class="hero">
-        <h1>Welcome to My Blog</h1>
-        <p>A place for my thoughts and ideas.</p>
-        </section>
+    <section class="featured">
+        {% assign featured_post = site.posts | first %}
+        <div class="featured-image" style="background-image: url('{{ featured_post.image | relative_url }}');"></div>
+        <div class="featured-content">
+            <h2><a href="{{ featured_post.url | relative_url }}">{{ featured_post.title }}</a></h2>
+            <p class="post-meta">{{ featured_post.date | date: "%B %d, %Y" }}</p>
+            <p>{{ featured_post.excerpt }}</p>
+            <a href="{{ featured_post.url | relative_url }}" class="read-more">Read More</a>
+        </div>
+    </section>
 
     <section class="latest-posts">
-        <h2>Latest Posts</h2>
-        <ul>
-            {% for post in site.posts limit:5 %}
-            <li>
-                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                <small>{{ post.date | date: "%B %d, %Y" }}</small>
-                <p>{{ post.excerpt }}</p>
-            </li>
+        <h2>Latest</h2>
+        <div class="post-grid">
+            {% for post in site.posts offset:1 limit:6 %}
+            <div class="post-card">
+                <a href="{{ post.url | relative_url }}">
+                    {% if post.image %}
+                    <div class="post-image" style="background-image: url('{{ post.image | relative_url }}');"></div>
+                    {% endif %}
+                    <h3>{{ post.title }}</h3>
+                    <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
+                    <p>{{ post.excerpt | truncatewords: 15 }}</p>
+                </a>
+            </div>
             {% endfor %}
-        </ul>
-        <a href="{{ '/blog/' | relative_url }}">View All Posts</a> </section>
+        </div>
+        <div class="view-all">
+            <a href="{{ '/blog/' | relative_url }}">View All Posts</a>
+        </div>
+    </section>
 
     <section class="contact">
-        <h2>Contact Me</h2>
-        <p>You can reach me via:</p>
-        <ul>
+        <h2>Contact</h2>
+        <p>Get in touch:</p>
+        <ul class="contact-links">
+            <li><a href="#">Twitter</a></li>
             <li><a href="#">LinkedIn</a></li>
             <li><a href="#">Email</a></li>
         </ul>
-        </section>
+    </section>
 </div>
