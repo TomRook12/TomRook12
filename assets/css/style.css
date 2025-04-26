@@ -203,3 +203,37 @@ footer {
     color: #fff;
     font-size: 0.9em;
 }
+
+.about-page {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.about-photo {
+    width: 150px; /* Adjust as needed */
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover; /* Ensures the image fills the space nicely */
+}
+
+.about-content p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-content h2 {
+    margin-top: 25px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
