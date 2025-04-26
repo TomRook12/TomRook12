@@ -5,7 +5,7 @@ date: 2025-04-26
 author: John Doe
 author_profile: https://example.com/johndoe
 categories: [technology, web development]
-image /assets/images/Gemini_Generated_Image_2rr1tq2rr1tq2rr1.jpg
+image: /assets/images/Gemini_Generated_Image_2rr1tq2rr1tq2rr1.jpg
 ---
 
 ## Introduction
