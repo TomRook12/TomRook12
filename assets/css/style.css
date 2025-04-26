@@ -19,7 +19,18 @@ a:hover {
 header {
     background-color: #fff;
     padding: 15px 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out logo and navigation */
+    align-items: center; /* Vertically align items in the header */
+}
+
+.logo a {
+    display: block; /* Make the link a block for easier sizing */
+}
+
+.logo img {
+    max-height: 40px; /* Adjust the maximum height of your logo */
 }
 
 header nav {
