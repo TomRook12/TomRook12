@@ -1,69 +1,194 @@
 body {
-    font-family: sans-serif;
-    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* A modern, readable font */
+    margin: 0; /* Remove default body margin */
     line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
+    color: #222; /* Darker text for better readability */
+    background-color: #f9f9f9; /* Light gray background */
+}
+
+a {
+    color: #007bff; /* A typical link color */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+header {
+    background-color: #fff;
+    padding: 15px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 header nav {
-    background-color: #333;
-    padding: 10px 0;
-    text-align: center;
+    text-align: right; /* Align navigation to the right */
 }
 
 header nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 15px;
+    color: #555;
+    margin-left: 20px;
+    font-weight: 500;
 }
 
 main {
-    padding: 20px 0;
+    padding: 30px 20px;
+    max-width: 1200px; /* Limit page width for better readability */
+    margin: 0 auto; /* Center the content */
 }
 
-.home .hero {
-    background-color: #ddd;
-    padding: 40px 20px;
-    text-align: center;
-    margin-bottom: 20px;
+.featured {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 40px;
+    min-height: 400px; /* Ensure a decent height */
+    overflow: hidden; /* To contain background image */
 }
 
-.home .latest-posts ul {
-    list-style: none;
-    padding: 0;
+.featured-image {
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
 }
 
-.home .latest-posts li {
-    margin-bottom: 20px;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 15px;
+.featured-content {
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.home .contact ul {
-    list-style: none;
-    padding: 0;
+.featured-content h2 a {
+    color: #333;
 }
 
-.post-header {
-    margin-bottom: 20px;
-    border-bottom: 2px solid #ccc;
-    padding-bottom: 10px;
-}
-
-.post-meta {
+.featured-content .post-meta {
     color: #777;
+    margin-bottom: 10px;
     font-size: 0.9em;
 }
 
-.post-content {
+.featured-content .read-more {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
     margin-top: 20px;
+}
+
+.featured-content .read-more:hover {
+    background-color: #0056b3;
+}
+
+.latest-posts {
+    margin-bottom: 40px;
+}
+
+.latest-posts h2 {
+    border-bottom: 3px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.post-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px;
+}
+
+.post-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    overflow: hidden; /* To contain image and rounded corners */
+    transition: transform 0.2s ease-in-out;
+}
+
+.post-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.post-card a {
+    display: block;
+    padding: 20px;
+}
+
+.post-card .post-image {
+    background-size: cover;
+    background-position: center;
+    height: 200px; /* Fixed height for image */
+    margin-bottom: 15px;
+}
+
+.post-card h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.post-card .post-meta {
+    color: #777;
+    font-size: 0.85em;
+    margin-bottom: 10px;
+}
+
+.view-all {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.view-all a {
+    display: inline-block;
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.view-all a:hover {
+    background-color: #333;
+}
+
+.contact {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.contact h2 {
+    margin-bottom: 15px;
+}
+
+.contact-links {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.contact-links a {
+    color: #333;
+    font-weight: bold;
+}
+
+.contact-links a:hover {
+    color: #007bff;
 }
 
 footer {
     text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
-    border-top: 1px solid #ccc;
-    color: #777;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9em;
 }
