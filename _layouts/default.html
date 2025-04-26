@@ -3,20 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title | default: 'My Awesome Blog' }}</title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title | default: 'Unboxed Advontage' }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
     <header>
+        <div class="logo">
+            <a href="{{ '/' | relative_url }}">
+                <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="{{ site.title | default: 'My Awesome Blog' }} Logo">
+            </a>
+        </div>
         <nav>
             <a href="{{ '/' | relative_url }}">Home</a>
-            <a href="{{ '/about/' | relative_url }}">About</a> <a href="{{ '/contact/' | relative_url }}">Contact</a> </nav>
+            <a href="{{ '/about/' | relative_url }}">About</a>
+            <a href="{{ '/contact/' | relative_url }}">Contact</a>
+        </nav>
     </header>
     <main>
         {{ content }}
     </main>
     <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name | default: site.title | default: 'My Awesome Blog' }}</p>
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name | default: site.title | default: 'Unboxed Advontage' }}</p>
     </footer>
 </body>
 </html>
