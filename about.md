@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Me
+title: About
 ---
 <div class="about-page">
     <div class="about-header">
