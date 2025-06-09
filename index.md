@@ -1,6 +1,15 @@
 ---
 title: Home Page Content 
 ---
+<head>
+<style>
+p.big {
+  line-height: 1.8;
+}
+</style>
+</head>
+<body>
+
 <div>
 {% for post in site.posts %}
         <a href="{{ site.baseurl }}{{ post.url }}">
@@ -13,9 +22,8 @@ title: Home Page Content
                 {% endif %}
             </a>
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            <p>
+            <p class="big">
                 {{ post.excerpt }}
-                </br>
             </p>
 {% endfor %}  
 </div>
