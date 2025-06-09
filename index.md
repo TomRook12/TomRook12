@@ -15,8 +15,8 @@ title: Home Page Content
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
             <p>
                 {{ post.excerpt }}
+                </br>
             </p>
 {% endfor %}  
 </div>
 
-/assets/images/placeholder.jpg

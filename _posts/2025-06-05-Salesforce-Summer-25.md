@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Salesforce Summer '25 Release Quickfire
+title: Salesforce Summer '25: Release Quickfire
 date: 2025-06-05
 author: Tom Rook
 author_profile: /about/
