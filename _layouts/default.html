@@ -1,88 +1,93 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
+<html lang="{{ site.lang | default: " en-US" }}">
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    {% seo %}
+    <link rel="stylesheet" href="{{ " /assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="wrapper">
-      <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <header>
+            <h1><a href="{{ " /" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
-
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        <p class="view"><a href="{{ /about }}"> About Tom <small>Find out about Tom</small></a></p>
-
-        <p class="view"><a href="{{ /about }}"> About Tom <small>Find out about Tom</small></a></p>
-
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-        {% endif %}
-      </header>
-      <section>
-
-        <div class="container mx-auto px-4 py-8">
-        <!-- Check if there are any posts to display -->
-        {% if site.posts.size > 0 %}
-        <h2 class="text-3xl font-bold text-center mb-10 text-gray-800">Latest Blog Posts</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Loop through each post in reverse chronological order (newest first) -->
-        {% for post in site.posts %}
-        <div class="bg-white rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
-        <a href="{{ post.url | relative_url }}" class="block">
-            <!-- Post Image -->
-            {% if post.image %}
-            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="w-full h-48 object-cover">
-            {% else %}
-            <!-- Placeholder image if no image is defined in the post's front matter -->
-            <img src="https://placehold.co/600x400/22c55e/ffffff?text=No+Image" alt="Placeholder image for {{ post.title }}" class="w-full h-48 object-cover bg-gray-200 flex items-center justify-center text-gray-500 text-sm">
+            {% if site.logo %}
+            <img src="{{site.logo | relative_url}}" alt="Logo" />
             {% endif %}
-        </a>
-        <div class="p-6">
-            <!-- Post Title -->
-            <h3 class="text-xl font-semibold text-gray-900 mb-2 leading-tight">
-            <a href="{{ post.url | relative_url }}" class="hover:text-blue-600 transition duration-200">{{ post.title }}</a>
-            </h3>
-            <!-- Post Date -->
-            <p class="text-sm text-gray-600 mb-4">{{ post.date | date: "%B %d, %Y" }}</p>
-            <!-- Post Excerpt/Summary -->
-            <div class="text-gray-700 leading-relaxed mb-4">
-            {{ post.excerpt | strip_html | truncatewords: 30 }}
-            </div>
-            <!-- Read More Link -->
-            <a href="{{ post.url | relative_url }}" class="inline-block text-blue-600 hover:text-blue-800 font-medium transition duration-200">
-            Read More &rarr;
-            </a>
-        </div>
-        </div>
-        {% endfor %}
-        </div>
-        {% else %}
-        <p class="text-center text-gray-600 text-lg mt-10">No blog posts found. Start writing your first post!</p>
-        {% endif %}
-        </div>
 
-      </section>
-      <footer> 
-        <p>Linked In<a href="https://www.linkedin.com/in/tomrook12/">Tom Rook </a></p>
-      </footer>
+            <p>{{ site.description | default: site.github.project_tagline }}</p>
+
+            <p class="view"><a href="{{ site.baseurl }}/about }}"> About Tom <small>Find out more</small></a></p>
+
+            <p class="view"><a href="{{ /about }}"> About Tom <small>Find out about Tom</small></a></p>
+
+            {% if site.show_downloads %}
+            <ul class="downloads">
+                <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
+                <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
+                <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
+            </ul>
+            {% endif %}
+        </header>
+        <section>
+
+            <div>
+                <!-- Check if there are any posts to display -->
+                {% if site.posts.size > 0 %}
+                <h2>Latest Blog Posts</h2>
+                <div>
+                    <!-- Loop through each post in reverse chronological order (newest first) -->
+                    {% for post in site.posts %}
+                    <div>
+                        <a href="{{ post.url | relative_url }}" class="block">
+                            <!-- Post Image -->
+                            {% if post.image %}
+                            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}"
+                                class="w-full h-48 object-cover">
+                            {% else %}
+                            <!-- Placeholder image if no image is defined in the post's front matter -->
+                            <img src="{{ site.baseurl }}/ assets/images/Gemini_Generated_Image_2rr1tq2rr1tq2rr1.jpg }}"
+                                alt="Placeholder image for {{ post.title }}"
+                                class="w-full h-48 object-cover bg-gray-200 flex items-center justify-center text-gray-500 text-sm">
+                            {% endif %}
+                        </a>
+                        <div class="p-6">
+                            <!-- Post Title -->
+                            <h3 class="view">
+                                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                            </h3>
+                            <!-- Post Date -->
+                            <p>{{ post.date | date: "%B %d, %Y" }}</p>
+                            <!-- Post Excerpt/Summary -->
+                            <div>
+                                {{ post.excerpt | strip_html | truncatewords: 30 }}
+                            </div>
+                            <!-- Read More Link -->
+                            <a href="{{ post.url | relative_url }}"> Read More &rarr;</a>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <p class="text-center text-gray-600 text-lg mt-10">No blog posts found. Start writing your first post!
+                </p>
+                {% endif %}
+            </div>
+
+        </section>
+        <footer>
+            <p>Linked In<a href="https://www.linkedin.com/in/tomrook12/">Tom Rook </a></p>
+        </footer>
     </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-  </body>
+    <script src="{{ " /assets/js/scale.fix.js" | relative_url }}"></script>
+</body>
+
 </html>
