@@ -15,7 +15,7 @@ Tom's Saleforce Blog
             </a>
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         <p>
-            {{ post.excerpt | strip_html | truncatewords: 30 }}
+            {{ post.excerpt | strip_html | truncatewords: 60 }}
         </p>
 {% endfor %}  
 </div>
