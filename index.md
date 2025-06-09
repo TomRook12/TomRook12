@@ -1,7 +1,6 @@
 ---
-title: Welcome to my blog
+title: Home Page Content 
 ---
-Tom's Saleforce Blog
 <div>
 {% for post in site.posts %}  
         <a href="{{ site.baseurl }}{{ post.url }}" class="block">
