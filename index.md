@@ -5,7 +5,7 @@ Tom's Saleforce Blog
 
 {% for post in site.posts limit:5 %}  
   <div>
-    <a href="{{ site.baseurl }}{{ post.url }}" class="block">
+    <a href="{{ BASE_PATH }}{{ post.url }}" class="block">
             <!-- Post Image -->
             {% if post.image %}
               <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="w-full h-48 object-cover">
