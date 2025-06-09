@@ -3,10 +3,10 @@ layout: post
 title: Salesforce Summer '25 Release Quickfire
 date: 2025-06-09
 author: Tom Rook
-author_profile: /about
+author_profile: /about/
 categories: [technology, Salesforce, Release, Summer '25]
 image: /assets/images/Summer-25-BRR.png
-tags: [technology, Salesforce, Release, Summer '25]
+tags: [technology, Salesforce, Release, Summer'25]
 ---
 
 Another 3rd of a year, another Salesforce release! This time it is the turn of the Summer '25 release, bringing it with a whole host of features. Dive into this Quickfire of my favourite things, in no particular order:
