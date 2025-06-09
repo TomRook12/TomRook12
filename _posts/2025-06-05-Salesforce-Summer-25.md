@@ -50,5 +50,3 @@ Close a case with one button, the confusingly named 'Close Case' button. I don't
 ### Summary
 
 A great release with lots of fun feature, the Flow Approvals gets my vote as the most exciting. Think of all the fantastically complicated processes you can accomodate... actually not sure if that is a good thing.
-
-[back](./)

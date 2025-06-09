@@ -10,9 +10,9 @@ layout: default
 
 {{content}}
 
+
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}
 
-<a href="{{ "/" | absolute_url }}"><small>back</small></a> 
-
+<p><a href="{{ "/" | absolute_url }}"><small>back</small></a></p> 
