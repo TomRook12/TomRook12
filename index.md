@@ -2,9 +2,8 @@
 title: Welcome to my blog
 ---
 Tom's Saleforce Blog
-
+<div>
 {% for post in site.posts %}  
-    <div>
         <a href="{{ site.baseurl }}{{ post.url }}" class="block">
                 <!-- Post Image -->
                 {% if post.image %}
@@ -18,6 +17,5 @@ Tom's Saleforce Blog
         <p>
             {{ post.excerpt | strip_html | truncatewords: 30 }}
         </p>
-    </div>
-
 {% endfor %}  
+</div>
