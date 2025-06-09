@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Flow Approvals: Deep Dive"
-date: 2025-06-09
+date: 2025-06-10
 author: Tom Rook
 author_profile: /about/
 categories: [technology, Salesforce, Release, Summer '25]
