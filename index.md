@@ -2,8 +2,7 @@
 title: Home Page Content 
 ---
 <div>
-{% for post in site.posts %}  
-    <li>
+{% for post in site.posts %}
         <a href="{{ site.baseurl }}{{ post.url }}" class="block">
                 <!-- Post Image -->
                 {% if post.image %}
@@ -17,6 +16,5 @@ title: Home Page Content
             <p>
                 {{ post.excerpt }}
             </p>
-        </li>
 {% endfor %}  
 </div>
