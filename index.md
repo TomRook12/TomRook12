@@ -9,7 +9,7 @@ title: Home Page Content
                 <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
                 {% else %}
                 <!-- Placeholder image if no image is defined in the post's front matter -->
-                <img src="{{ /assets/images/placeholder.jpg | absolute_url }}" alt="Placeholder image for {{ post.title }}">
+                <img src="assets\images\placeholder.jpg" alt="Placeholder image for {{ post.title }}">
                 {% endif %}
             </a>
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -18,3 +18,5 @@ title: Home Page Content
             </p>
 {% endfor %}  
 </div>
+
+/assets/images/placeholder.jpg
