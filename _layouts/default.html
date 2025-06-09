@@ -17,7 +17,7 @@
       <header>
 
         {% if site.logo %}
-        <a href="{{ site.baseurl }}">
+        <a href="{{ '/' | relative_url }}">
             <img src="{{site.logo | relative_url}}" alt="Logo" />
         </a>
           
@@ -29,7 +29,7 @@
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
 
-        <p class="view"><a href="{{ site.baseurl }}{{ /about }}">About Tom</a></p>
+        <p class="view"><a href="{{ site.baseurl }}{{ /about/ }}">About Tom</a></p>
         
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
 
