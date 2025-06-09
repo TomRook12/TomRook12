@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Flow Approvals Deep Dive
+title: "Flow Approvals: Deep Dive"
 date: 2025-06-10
 author: Tom Rook
 author_profile: /about/
