@@ -2,3 +2,7 @@
 title: Welcome to my blog
 ---
 Tom's Saleforce Blog
+
+{% for post in site.posts limit:5 %}  
+  <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>  
+{% endfor %}  
