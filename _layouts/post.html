@@ -2,9 +2,9 @@
 layout: default
 ---
 <h1>{{ page.title }}</h1>
-<img src="{{ page.image | absolute_url }}" alt="{{ page.title }}" class="w-full h-48 object-cover">
 <p class="view">by {{ page.author | default: site.author }}</p>
 <small>{{ page.date | date: "%-d %B %Y" }}</small>
+<img src="{{ page.image | absolute_url }}" alt="{{ page.title }}" class="w-full h-48 object-cover">
 
 {{content}}
 
