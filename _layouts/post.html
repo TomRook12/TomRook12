@@ -3,11 +3,11 @@ layout: default
 ---
 <img src="{{ page.image | absolute_url }}" alt="{{ page.title }}" class="w-full h-48 object-cover">
 <h1>{{ page.title }}</h1>
-<p class="view">by {{ page.author | default: site.author }}</p>
+<p class="view">by {{ page.author | default: site.author }}
 <small>{{ page.date | date: "%-d %B %Y" }}</small>
+</p>
 
 {{content}}
-
 
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
