@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Buh-bye Classic Approvals
-date: {}
+date: 2025-06-09T00:00:00.000Z
 author: Tom Rook
 author_profile: /about/
 categories:
@@ -9,7 +9,7 @@ categories:
   - Salesforce
   - Release
   - Summer '25
-image: /assets/images/placeholder.jpg
+image: /assets/images/FlowApprovals.jpg
 tags:
   - technology
   - Salesforce
