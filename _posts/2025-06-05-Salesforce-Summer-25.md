@@ -2,7 +2,7 @@
 layout: post
 title: "Salesforce Summer '25: Release Quickfire"
 date: 2025-06-05
-author: Tom Rook
+author: tom
 author_profile: /about/
 categories: [technology, Salesforce, Release, Summer '25]
 image: /assets/images/Summer-25-BRR.png
