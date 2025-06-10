@@ -51,5 +51,7 @@ One thing that was missing that made classic approvals so easy to get up and run
 
 So where do you find this magical wizard, in the approvals app of course! What is the approvals app you say, a one stop shop for pending approvals, your approval submissions, your approval work items, reviewing my approval work itesm and now creating approvals. I think the wizard should exist inside of the automation app/Setup > Flow but what do I know.
 
-If you made it here Thank You!
+If you made it here Thank You! 
+
+If you would like to download my slides from the London Admin Group  <a href="/assets/download/Summer25-FlowApprovals.pptx" download>click here.</a>.
 
