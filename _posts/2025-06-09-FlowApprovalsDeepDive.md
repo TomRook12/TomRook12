@@ -53,5 +53,5 @@ So where do you find this magical wizard, in the approvals app of course! What i
 
 If you made it here Thank You! 
 
-If you would like to download my slides from the London Admin Group  <a href="/assets/download/Summer25-FlowApprovals.pptx" download>click here.</a>.
+If you would like to download my slides from the London Admin Group  <a href="/assets/download/Summer25-FlowApprovals.pptx" download>click here.</a>
 

@@ -4,7 +4,7 @@ name: Tom Rook
 position: Chief Editor
 ---
 
-![Tom but he is a rowing coach](./assets/images/your-photo.png)
+![Tom but he is a rowing coach]({{site.baseurl}}/assets/images/your-photo.png)
 
 Hello! I'm Tom Rook, an experienced Salesforce Consultant & Business Analyst with a real passion for empowering users to get the most out of their Salesforce implementation. I believe in driving value through strong stakeholder engagement and developing a deep, empathetic understanding of end users. My approach is further strengthened by my own experience as a Salesforce end-user, which allows me to truly deliver solutions that meet client needs.
 
