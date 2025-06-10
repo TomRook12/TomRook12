@@ -13,4 +13,3 @@ My key strengths lie in crafting declarative solutions, effective stakeholder ma
 
 Outside of my professional life, I am an active member of the London Admin Users Group and enjoy running, cycling, and spending time with my young family. And, for those who share my enthusiasm, I'm always up for a conversation about all things coffee!
 
-[back](./)

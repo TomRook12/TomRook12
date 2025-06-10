@@ -3,14 +3,12 @@ layout: default
 ---
 <img src="{{ page.image | absolute_url }}" alt="{{ page.title }}" class="w-full h-48 object-cover">
 <h1>{{ page.title }}</h1>
-<p class="view">by <a href="{{ author.url | absolute_url }}">{{ author.name }}</a><br>
-<small>{{ page.date | date: "%-d %B %Y" }}</small>
-</p>
+
 <p>
-  {{ page.date | date_to_string }}
   {% assign author = site.authors | where: 'short_name', page.author | first %}
   {% if author %}
-    - <a href="{{ author.url }}">{{ author.name }}</a>
+    <a href="{{ author.url }}">{{ author.name }}</a> - 
+  {{ page.date | date_to_string }}
   {% endif %}
 </p>
 
