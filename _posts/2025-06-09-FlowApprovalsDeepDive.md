@@ -2,7 +2,7 @@
 layout: post
 title: Buh-bye Classic Approvals
 date: 2025-06-09T00:00:00.000Z
-author: tom_rook
+author: Tom Rook
 author_profile: /about/
 categories:
   - technology
