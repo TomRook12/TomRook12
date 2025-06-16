@@ -1,6 +1,7 @@
 ---
 short_name: tom
 name: Tom Rook
+Title: Tom Rook
 position: Chief Editor
 ---
 
