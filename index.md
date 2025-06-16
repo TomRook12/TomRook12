@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home Page Content 
+title: Home
 ---
 
 <div>
