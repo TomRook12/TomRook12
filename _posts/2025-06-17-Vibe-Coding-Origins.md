@@ -31,15 +31,19 @@ Great for understanding code you don't understand at the moment.
 This is so so aggresive, sometimes it wants to complete what you are currently writing/editing but more often than not it wants to insert multiple lines sometimes entire methods out of thin air! Can be great but can also be frustrating as it's suggestions are interesting...
 
 **Test Case Generation**
-A great idea, for those that don't know apex classes must have at leat 75% of their executable lines (non comments) covered by unit tests or you can't move your code between Salesforce environments. So this feature is essential! I have found it hit and miss sometimes genrating test classes that either test nothing useful or check for test results that don't makesense and don't scale. I am not that fond of this feature, it is more of a good starting point than an up and running out of the gate.
+A great idea, for those that don't know apex classes must have at leat 75% of their executable lines (non comments) covered by unit tests or you can't deploy your code between Salesforce environments. So this feature is essential! I have found it hit and miss sometimes genrating test classes that either test nothing useful or check for test results that don't makesense and don't scale. I am not that fond of this feature, it is more of a good starting point than an up and running out of the gate.
 
-So there are the features! 
+So there are the features, that you could get invoved in!
 
 ### Tip of the Iceberg
-Hopefully this article has conveyed my level of excitement for what YOU could achieve with vibe coding. I think like right now, like today! This is a super fun way of writing code and gettng your toes wet in the Salesforce code. Set your VS Code up and enjoy several ways to get writing code you can either start speaking to the LLM and tell it what you want or start writing a little bit of code and Agentforce will fill in the blanks! 
+Hopefully this article has conveyed my level of excitement for what **YOU** could achieve with vibe coding. Just get out there and give this a go, I think like right now, like today! This is a super fun way of writing code and gettng your toes wet in the Salesforce code. Set your VS Code up and enjoy several ways to get writing code you can either start speaking to the LLM and tell it what you want or start writing a little bit of code and Agentforce will fill in the blanks (if you want to try this option head over to Salesforce Developers help for code snippets and examples of what to do.) 
 
 ### Useful Links
 -[Code Gen on GitHub](https://github.com/salesforce/CodeGen)
+-Salesforce's Agentforce for Developer home
+-Salesforce Developer Help
+-Coding with the Force YouTube
+
 
 
 So what does it look like in Salesforce? Something on ChatGPT, Gemini, Claude? For that we need to hop into VScode and install the agentforce extension.
