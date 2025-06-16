@@ -6,12 +6,14 @@ author: tom
 categories:
   - technology
   - Salesforce
+  - Agentforce
   - AI
 image: /assets/images/VibeCoding.png
 tags:
   - technology
   - Salesforce
   - AI
+  - Agentforce
   - Coding
 ---
 You may have heard this term Vibe Coding banded about (it was actually coined only a few months ago) and thought what is that? Can I use that? Are there Salesforce Vibes? Well I too had these thoughts so I jumped in to a salesforce org see what was possible.
@@ -49,7 +51,7 @@ Great for understanding code you don't understand at the moment.
 This is so so aggresive, sometimes it wants to complete the line that you are currently writing/editing but more often than not it wants to insert multiple lines sometimes entire methods out of thin air! Can be great but can also be frustrating as it's suggestions are interesting...
 
 **Test Case Generation**
-A great idea, for those that don't know apex classes must have at leat 75% of their executable lines (non comments) covered by unit tests or you can't deploy your code between Salesforce environments. So tests are essentuial! I have found it hit and miss sometimes genrating test classes that either test nothing useful or check for test results that don't makesense and don't scale. I am not that fond of this feature, it is more of a good starting point than an up and running out of the gate.
+Test cases are important, but this was frustrating to use, for those that don't know apex classes must have at leat 75% of their executable lines (non comments) covered by unit tests or you can't deploy your code between Salesforce environments. So tests are essential! I have found it hit and miss sometimes genrating test classes that either test nothing useful or check for test results that don't make sense and don't scale. I am not that fond of this feature, it is more of a good starting point than an up and running out of the gate.
 
 So there are the features, that you could get invoved in!
 
