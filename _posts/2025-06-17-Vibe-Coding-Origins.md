@@ -3,7 +3,7 @@ layout: post
 title: "Vibe Coding Orgins"
 date: 2025-06-17
 author: tom
-categories:[technology, Salesforce, Agentforce, AI]
+categories: [technology, Salesforce, Agentforce, AI]
 image: /assets/images/VibeCoding.png
 tags: [technology, Salesforce, AI, Agentforce, Coding]
 ---
