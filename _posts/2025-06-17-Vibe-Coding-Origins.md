@@ -1,20 +1,11 @@
 ---
 layout: post
-title: Vibe Coding Orgins
+title: "Vibe Coding Orgins"
 date: 2025-06-17
 author: tom
-categories:
-  - technology
-  - Salesforce
-  - Agentforce
-  - AI
+categories:[technology, Salesforce, Agentforce, AI]
 image: /assets/images/VibeCoding.png
-tags:
-  - technology
-  - Salesforce
-  - AI
-  - Agentforce
-  - Coding
+tags: [technology, Salesforce, AI, Agentforce, Coding]
 ---
 You may have heard this term Vibe Coding banded about (it was actually coined only a few months ago) and thought what is that? Can I use that? Are there Salesforce Vibes? Well I too had these thoughts so I jumped in to a salesforce org see what was possible.
 
