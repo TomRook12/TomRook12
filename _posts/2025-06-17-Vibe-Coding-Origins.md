@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vibe Coding Orgins"
+title: "Vibe Coding Adventures"
 date: 2025-06-17
 author: tom
 categories: [technology, Salesforce, Agentforce, AI]
