@@ -51,10 +51,7 @@ Hopefully this article has conveyed my level of excitement for what **YOU** coul
 
 ### Useful Links
 -[Code Gen on GitHub](https://github.com/salesforce/CodeGen)
--Salesforce's Agentforce for Developer home
--Salesforce Developer Help
--Coding with the Force YouTube
-
-
+-[Salesforce's Agentforce for Developer](https://developer.salesforce.com/blogs/2024/09/introducing-agentforce-for-developers)
+-[Salesforce Developer Help](https://developer.salesforce.com/docs)
 
 So what does it look like in Salesforce? Something on ChatGPT, Gemini, Claude? For that we need to hop into VScode and install the agentforce extension.
