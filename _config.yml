@@ -3,6 +3,7 @@ author: Tom Rook
 logo: /assets/images/logo.png
 description: Join Tom on his adevntures across the Salesforce ecosystem
 remote_theme: pages-themes/minimal@v0.2.0
+permalink: /:title
 plugins:
 - jekyll-remote-theme
 collections:
